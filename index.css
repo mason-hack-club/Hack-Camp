@@ -1,6 +1,6 @@
 .stickyHeader {
-	height: 5%;
-	background-color: #19D1D6;
+	height: 46px;
+	background-color: #03befc;
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
@@ -8,6 +8,14 @@
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
+}
+
+.divText {
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 p {
@@ -20,7 +28,7 @@ p {
 
 .headingDiv {
 	float: left;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	height: 100%;
 }
