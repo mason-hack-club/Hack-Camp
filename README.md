@@ -1,3 +1,3 @@
 # Hack-Camp
 Hack Camp Website
-we have a fixed header.
+This is the official website for Hack Camp in 2019.
