@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /*
 	Hyperspace by HTML5 UP
@@ -98,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #EF6362;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,10 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16.5pt;
-		font-weight: normal;
-		line-height: 1.75;
+		font-family: 'raleway', Helvetica, sans-serif;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -197,7 +195,7 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #386dff, #54e979);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
@@ -2531,7 +2529,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #2d93ad;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3011,7 +3009,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(10, 116, 0, 0.9);
+				background: rgba(49, 36, 80, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3226,15 +3224,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #ffffff;
+			background-color: #19D1D6;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #261c3e;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #2D93AD;
 		}
 
 		.wrapper.style2-alt {
@@ -3242,7 +3241,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #261c3e;
 		}
 
 		.wrapper.style3-alt {
@@ -3506,8 +3505,8 @@ input, select, textarea {
 /* Sidebar */
 
 	#sidebar {
-		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		padding: 2.5em 2.5em 0.5em 2.5em;
+		background: #ef6362;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3744,14 +3743,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #19d1d6;
 			}
 
 			#sidebar nav a:after {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #19d1d6, #ffffff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
