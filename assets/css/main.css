@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.7);
 		font-family: 'raleway', Helvetica, sans-serif;
 	}
 
@@ -3506,7 +3506,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em;
-		background: #ef6362;
+		background: #312450;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3719,7 +3719,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.56);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3889,3 +3889,6 @@ input, select, textarea {
 			}
 
 		}
+.center{
+	font-align:center;
+}
