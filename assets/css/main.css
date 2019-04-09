@@ -2590,6 +2590,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
+.leaderImages {
+    width: 25%;
+    border-radius: 50%;
+    border: 5px solid gray;
+    text-align: center;
+    margin: 0 37.5%;
+}
+
 /* List */
 
 	ol {
