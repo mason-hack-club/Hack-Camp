@@ -3900,6 +3900,19 @@ input, select, textarea {
 .center{
 	text-align:center;
 }
+#CTA-Text{
+  font-size: 40px;
+}
+#CTA-Button{
+  font-size: 15px;
+}
+#five{
+  background-color: #EF6362;
+}
+#CTA-Text, #CTA-Button {
+  display: inline;
+  
+}
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
