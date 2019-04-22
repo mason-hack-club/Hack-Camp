@@ -3913,6 +3913,12 @@ input, select, textarea {
   display: inline;
   
 }
+.input-form {
+  list-style-type:none;
+}
+.input-item {
+  display:inline-block;
+}
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
