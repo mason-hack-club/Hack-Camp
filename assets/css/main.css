@@ -3918,6 +3918,11 @@ input, select, textarea {
 }
 .input-item {
   display:inline-block;
+  width: 48%;
+}
+label {
+  margin-top: 1cm;
+  margin-bottom: .01cm;
 }
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Raleway');
