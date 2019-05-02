@@ -2453,22 +2453,22 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color:black !important;
+		color:grey !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color:black !important;
+		color:grey !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color:black !important;
+		color:grey !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color:black !important;
+		color:grey !important;
 		opacity: 1.0;
 	}
 
