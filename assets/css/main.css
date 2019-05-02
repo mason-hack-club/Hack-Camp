@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color:white;
 		font-family: 'raleway', Helvetica, sans-serif;
 	}
 
@@ -1912,8 +1912,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
-			color: #312450 !important;
+			background-color: #312450;
+			color:white !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2311,11 +2311,8 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.05);
-		border-radius: 0.25em;
-		border: none;
-		border: solid 1px rgba(255, 255, 255, 0.15);
-		color: inherit;
+		background:white;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -2338,7 +2335,7 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ffffff;
+			border-color: black;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
@@ -2456,22 +2453,22 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color:black !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color:black !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color:black !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color:black !important;
 		opacity: 1.0;
 	}
 
@@ -2543,7 +2540,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		margin: 0px;
+    margin-bottom:0px;
 	}
 
 		.image img {
@@ -3361,14 +3358,14 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #312450;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
 
 		#header > .title {
 			border: 0;
-			color: #ffffff;
+			color:white;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3907,9 +3904,6 @@ input, select, textarea {
 #CTA-Button{
   font-size: 15px;
 }
-#five{
-  background-color: #19d1d6;
-}
 #CTA-Text, #CTA-Button {
   display: inline;
   
@@ -3924,6 +3918,7 @@ input, select, textarea {
 label {
   margin-top: 1cm;
   margin-bottom: .01cm;
+  color:black;
 }
 .stuffs {
   border-style:solid;
@@ -3938,7 +3933,27 @@ label {
 #five {
     background-color: #19d1d6;
 }
+#main {
+  background-color:white;
+}
+#colorz {
+  color:red;
+}
+form {
+  color: black;
+}
+input  {
+  border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(54, 53, 52);
+}
+select {
+  border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(54, 53, 52);
+}
+
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-
