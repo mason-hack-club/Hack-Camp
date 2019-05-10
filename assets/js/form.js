@@ -4,10 +4,9 @@ $("#register").submit(function(event) {
   event.preventDefault();
 
   /* get the action attribute from the <form action=""> element */
-  var $form = $(this),
-    url = $form.attr("action");
+  var $form = $(this);
 
-  var posting = $.post(url, $form.serialize());
+  var posting = $.post("https://dash.zane.sh/api/v1/events/mason-hack-camp-2019/attendees", $form.serialize());
 
   /* Alerts the results */
   posting.done(function(data) {
