@@ -170,6 +170,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		line-height: 1.2;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1841,6 +1842,7 @@ input, select, textarea {
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
+		margin: 10px;
 		outline: 0;
 		padding: 0 3.75em;
 		position: relative;
@@ -3906,7 +3908,7 @@ input, select, textarea {
 }
 #CTA-Text, #CTA-Button {
   display: inline;
-  
+
 }
 .input-form {
   list-style-type:none;
