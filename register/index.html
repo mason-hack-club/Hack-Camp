@@ -1,219 +1,59 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
  Hyperspace by HTML5 UP
  html5up.net | @ajlkn
  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
  -->
 <html>
-    <head>
-        <title>Mason Hack Camp | Register</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="/assets/css/main.css" />
-        <noscript>
-            <link rel="stylesheet" href="/assets/css/noscript.css" />
-        </noscript>
-    </head>
-    <body class="is-preload">
+  <head>
+    <title>Register | Hack Camp 2019</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript>
+      <link rel="stylesheet" href="/assets/css/noscript.css" />
+    </noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header"><a href="/" class="title">Hack Camp 2019</a></header>
 
-        <!-- Header -->
-        <header id="header">
-            <a href="/" class="title">Hack Camp 2019</a>
-        </header>
-
-        <!-- Wrapper -->
-        <div id="wrapper">
-
-            <!-- Main -->
-            <section id="main" class="wrapper">
-                <div class="inner">
-                    <h1 class="major" id="colorz">Registration</h1>
-                    <form id="register" action="https://dash.zane.sh/api/v1/events/mason-hack-camp-2019/attendees" method="POST">
-
-                        <h2 id="colorz">Student Information</h2>
-                        <div class="row gtr-uniform">
-                            <ul class="input-form">
-                                <li class="input-item">
-                                    <label for="attendee[first_name]">First Name <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[first_name]" id="attendee[first_name]" type="text" placeholder="Augusta" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[last_name]">Last Name <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[last_name]" id="attendee[last_name]" type="text" placeholder="Lovelace" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[grade_level]">Grade Level (19-20 School Year) <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[attendee[grade_level]" id="attendee[grade_level]" required>
-                                        <option value="" disabled selected>Choose Grade Level</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[gender]">Gender <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[gender]" id="gender" required>
-                                        <option value="" disabled selected>Choose Gender</option>
-                                        <option value="Male">Male</option>
-                                        <option value="Female">Female</option>
-                                        <option value="N/A">Prefer Not to Say</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[session_time]">Session Time <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[session_time]" id="attendee[session_time]" required>
-                                        <option value="" disabled selected>Choose Session Time</option>
-                                        <option value="Morning">Morning</option>
-                                        <option value="Afternoon">Afternoon</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[session_level]">Session Level <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[session_level]" id="attendee[session_level]" required>
-                                        <option value="" disabled selected>Choose Session Level</option>
-                                        <option value="Beginner">Beginner</option>
-                                        <option value="Advanced">Advanced</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[email]">Email Address (MUST have access during Camp) <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[email]" id="attendee[email]" type="email" placeholder="ada@example.com" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[email_address2]">Confirm Email Address <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[email_address2]" id="attendee[email_address2]" type="email" placeholder="ada@example.com" required>
-                                </li>
-
-                                <li class="input-item">
-                                    <label for="attendee[experience]">Programming Experience <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[experience]" id="attendee[experience]" required>
-                                        <option value="" disabled selected>Choose Programming Experience</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[shirt_size]">Shirt Size <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[shirt_size]" id="attendee[shirt_size]" required>
-                                        <option value="" disabled selected>Choose Shirt Size</option>
-                                        <option value="YS">Youth Small</option>
-                                        <option value="YM">Youth Medium</option>
-                                        <option value="YL">Youth Large</option>
-                                        <option value="AS">Adult Small</option>
-                                        <option value="AM">Adult Medium</option>
-                                        <option value="AL">Adult Large</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[past_attend]">Did You Attend Hack Camp 2018? <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[past_attend]" id="attendee[past_attend]" required>
-                                        <option value="" disabled selected>Choose Answer</option>
-                                        <option value="Y">Yes</option>
-                                        <option value="N" selected>No</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[laptop]">Can you bring a laptop or chromebook? <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[laptop]" id="attendee[laptop]" required>
-                                        <option value="" disabled selected>Choose Answer</option>
-                                        <option value="Y">Yes</option>
-                                        <option value="N">No</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[referral]">How did you hear about us? <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[referral]" id="attendee[referral]" type="text" placeholder="Teacher, parent, friend, etc." required>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <h2 id="colorz">Parent Information</h2>
-                        <div class="row gtr-uniform">
-                            <ul class="input-form">
-                                <li class="input-item">
-                                    <label for="[parent_first_name]">First Name <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[parent_first_name]" id="[parent_first_name]" type="text" placeholder="John" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[parent_last_name]">Last Name <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[parent_last_name]" id="attendee[parent_last_name]" type="text" placeholder="Lovelace" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[parent_email_address]">Email Address<span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[parent_email_address]" id="attendee[parent_email_address]" type="email" placeholder="ada@example.com" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[parent_email_address2]">Confirm Email Address <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[parent_email_address2]" id="attendee[parent_email_address2]" type="email" placeholder="ada@example.com" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[employee]">Cengage Employee <span style="color: #ff0033;">*</span></label>
-                                    <select name="attendee[employee]" id="attendee[employee]" required>
-                                        <option value="Y">Yes</option>
-                                        <option value="N" selected>No</option>
-                                    </select>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[parent_relation]">Relation <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[parent_relation]" id="attendee[parent_relation]" type="text" placeholder="Mother, father, guardian" required>
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[parent_phone_number]">Phone Number <span style="color: #ff0033;">*</span></label>
-                                    <input name="attendee[parent_phone_number]" id="attendee[parent_phone_number]" type="text" placeholder="513-111-1111" required>
-                                </li>
-                            </ul>
-                        </div>
-                        <h2 id="colorz">Alternate Pickup (Optional)</h2>
-                        <div class="row gtr-uniform">
-                            <ul class="input-form">
-                                <li class="input-item">
-                                    <label for="attendee[alt_first_name]">First Name</label>
-                                    <input name="attendee[alt_first_name]" id="attendee[alt_first_name]" type="text" placeholder="Jake">
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[alt_last_name]">Last Name</label>
-                                    <input name="attendee[alt_last_name]" id="attendee[alt_last_name]" type="text" placeholder="Lovelace">
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[alt_relation]">Relation</label>
-                                    <input name="attendee[alt_relation]" id="attendee[alt_relation]" type="text" placeholder="Parent, family friend, etc.">
-                                </li>
-                                <li class="input-item">
-                                    <label for="attendee[alt_phone_number]">Phone Number</label>
-                                    <input name="attendee[alt_phone_number]" id="attendee[alt_phone_number]" type="text" placeholder="513-111-1111">
-                                </li>
-                            </ul>
-                        </div>
-                        <button type="submit" class="button primary">Submit Registration</button>
-                    </form>
-                </div>
-            </section>
-
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main" class="wrapper">
+        <div class="inner">
+          <h1 class="major" id="colorz">Registration Closed</h1>
+          <p style="color: black;">
+            Sorry, but registration is closed. If you have any questions, please
+            email
+            <a href="mailto:masonhackclub@gmail.com">masonhackclub@gmail.com</a
+            >.
+          </p>
         </div>
+      </section>
+    </div>
 
-        <!-- Footer -->
-        <footer id="footer" class="wrapper alt">
-            <div class="inner">
-                <ul class="menu">
-                    <li>&copy; Mason Hack Club. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </div>
-        </footer>
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Mason Hack Club. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
 
-        <!-- Scripts -->
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/jquery.scrollex.min.js"></script>
-        <script src="/assets/js/jquery.scrolly.min.js"></script>
-        <script src="/assets/js/browser.min.js"></script>
-        <script src="/assets/js/breakpoints.min.js"></script>
-        <script src="/assets/js/util.js"></script>
-        <script src="/assets/js/main.js"></script>
-        <script src="/assets/js/form.js"></script>
-
-    </body>
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>
